@@ -1,0 +1,33 @@
+.selected-book__cover {
+  box-shadow: $boxShadow;
+  max-height: 450px;
+  @media (max-width: 400px) {
+    max-width: 220px;
+  }
+}
+
+.selected-book__inner {
+  padding: 50px 0;
+}
+
+.selected-book__info {
+  @media (max-width: 992px) {
+    margin-top: 30px;
+  }
+}
+
+.selected-book__title {
+  margin: 20px 0 10px;
+}
+
+.selected-book__description {
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid $modalGrey;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}

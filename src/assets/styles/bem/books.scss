@@ -1,0 +1,26 @@
+.books {
+  background-color: $whiteColor;
+  position: relative;
+}
+
+.books__title {
+  padding-top: 20px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.books__item {
+  width: 20%;
+  margin: 0 1px 20px;
+  @media (max-width: 987px) {
+    width: 35%;
+  }
+  @media (max-width: 576px) {
+    width: 70%;
+  }
+}
+
+.books__load-more-btn {
+  display: block;
+  margin: 0 auto;
+}

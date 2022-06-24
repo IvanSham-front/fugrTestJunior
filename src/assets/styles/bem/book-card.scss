@@ -1,0 +1,30 @@
+.book-card {
+  background-color: $backgroundGrey;
+  font-size: 13px;
+  color: $textGreyColor;
+  height: 100%;
+}
+
+.book-card__inner {
+  padding: 15px;
+}
+
+.book-card__cover {
+  margin-bottom: 20px;
+  box-shadow: $boxShadow;
+  max-height: 200px;
+}
+
+.book-card__categories {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.book-card__title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,12 @@
+.header {
+  color: $whiteColor
+}
+
+.header__title {
+  padding-top: 50px;
+  font-size: 45px;
+  @media (max-width: 576px) {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
